@@ -12,7 +12,7 @@ int count;
 
 int count3s()
 {
-   omp_set_num_threads(1);
+   omp_set_num_threads(2);
    int i;
    count = 0;
    int count_p = 0;  /* needed to move this declaration */
